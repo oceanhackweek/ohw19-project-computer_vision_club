@@ -5,3 +5,6 @@ Welcome to the computer vision club at OHW 2019. Please join us in the slack cha
 
 RULE 1: name notebooks and files with lower case letters and _ for spaces. Thank you.
 RULE 2: have fun.
+RULE 3: make kitty proud
+
+![alt text][cvc_mascot.jpg]
