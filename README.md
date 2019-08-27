@@ -4,7 +4,7 @@ computer vision club project for ocean hackweek 2019
 Welcome to the computer vision club at OHW 2019. Please join us in the slack channel #computervisionclub-2
 
 ## Rules
-RULE 1: name notebooks and files with lower case letters and _ for spaces.
+RULE 1: name notebooks and files with lower case letters and _ for spaces.  
 RULE 2: have fun and don't freak out.
 
 ## Structuring the repo
@@ -19,12 +19,12 @@ Improve the `README.md` by filling individual sections from the project guidelin
 
 #### Discussion Participants
 
-Jordan Pierce
-...
-...
-...
-...
-...
+Jordan Pierce  
+...  
+...  
+...  
+...  
+...  
 
 #### The Problem
 
@@ -34,11 +34,11 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 ### Workflow at a glance:
 
-1.) Parsing/cleaning existing annotation data 
-2.) Extracting and organizing training data 
-3.) Preprocessing and augmenting training data 
-4.) Train object recognition/image classification network
-5.) Apply trained model to new data, take *good* predictions and add to training data
+1.) Parsing/cleaning existing annotation data   
+2.) Extracting and organizing training data   
+3.) Preprocessing and augmenting training data   
+4.) Train object recognition/image classification network  
+5.) Apply trained model to new data, take *good* predictions and add to training data  
 
 #### Application example
 
@@ -77,24 +77,25 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 - How can that be used to create annotations?
 - What about prediction confidence? How sure are we that it is right?
 
-***Additional tasks***
-???
+### ***Additional tasks***   
+- Make everything go faster  
+- Create secondary data visualizations that'll make people poo their pants  
 
 #### Existing methods
 
 #### Proposed methods/tools
 
-Keras - for building and training the network
-OpenCv - image processing and augmentation
-Scikit image - image processing and augmentation
-Pandas - data science
-Numpy and/or Cupy - data science
-Numba - SPEED
+Keras - for building and training the network   
+OpenCv - image processing and augmentation  
+Scikit image - image processing and augmentation  
+Pandas - data science  
+Numpy and/or Cupy - data science  
+Numba - SPEED  
 
 #### Background reading
 
-Location of LabelImg --> https://github.com/tzutalin/labelImg (recommend using PyPi to install)
-Complete tutorial --> https://fairyonice.github.io/Object_detection_with_PASCAL_VOC2012_data_preparation_and_understanding.html
+Location of LabelImg: https://github.com/tzutalin/labelImg (recommend using PyPi to install)  
+Complete tutorial: https://fairyonice.github.io/Object_detection_with_PASCAL_VOC2012_data_preparation_and_understanding.html  
 
 ### Project Organization
 
