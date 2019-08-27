@@ -64,7 +64,7 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 *Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class? How should you organize the folder heiarchary? Are there any other attributes you can think of that might help to create cool graphics?*
 
-##### Edit: this *can* be done using existing scripts to save time! Refer to Slack page for the raccoon tutorial (e.g. `xml_to_csv.py`)
+##### Edit: this *can* be done using existing scripts to save time! Refer to [raccoon tutorial](https://github.com/datitran/raccoon_dataset) (e.g. `xml_to_csv.py`)
 
   
 3.) We now have a TFRecord file for both the training and testing data; these are essentially the instructions for how the training data will be fed into the model for the training. However, we need to provide further instructions for how the training images will be preprocessed in a way so that they'll be learnable/acceptable as input. Things to look at:
