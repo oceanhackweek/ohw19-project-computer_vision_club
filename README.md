@@ -54,7 +54,7 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 *Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class?*
 
-##### Edit: this can *mostly* be done using existing scripts to save time! Still need to find a way for parse just the majority class
+##### Edit: this can *mostly* be done using existing scripts to save time! Still need to find a way to parse *just* the majority class
 
   
 2.) With all these new, cleanly parsed XML files, we then need to convert ALL of the annotation data into another data structure that could then be used to extract the individual patches from the original images.
