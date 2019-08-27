@@ -90,8 +90,8 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
   
 6.) Additional tasks:  
 - Make everything go faster  
-- Create secondary data visualizations that'll make people poo their pants  
-- Add images to github README.md file
+- Create secondary data visualizations that'll make people poo their pants (e.g. [Tensorboard](https://itnext.io/how-to-use-tensorboard-5d82f8654496))  
+- Add images to github README.md file (*very important*)
 
 #### Existing methods
   
