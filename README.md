@@ -42,6 +42,9 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 #### Application example
 
+*put words here*  
+
+
 #### Specific tasks
 
 1.) Currently we have *some* annotations in XML format, how can we clean and parse that data into a format that can be used to then extract the individual annotation instances? 
