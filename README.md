@@ -75,10 +75,11 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
   
 4.) Object recognition consists of two parts: object detection, followed by image classification. The framework thus consists of two components. 
-- Which framework should we use and why?
+- Which framework should we use and why? (see [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) for all of the easy to grab frameworks)
 - Which convolutional neural network architecture should we use?
 - Transfer learning? (e.g. use weights of previously trained networks to assist in our training)
 - HYPER PARAMETERS!!! (loss, optimization and metrics)
+
 
   
 5.) With a trained model, what can we do with it to assist us in annotatating data in the future?
