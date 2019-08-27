@@ -7,6 +7,8 @@ RULE 1: name notebooks and files with lower case letters and _ for spaces. Thank
 RULE 2: have fun.
 
 Group Members:
+Jordan Pierce
 
+Location of LabelImg --> https://github.com/tzutalin/labelImg (recommend using PyPi to install)
 
 
