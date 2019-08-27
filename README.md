@@ -101,6 +101,7 @@ Scikit image - image processing and augmentation
 Pandas - data science  
 Numpy and/or Cupy - data science  
 Numba - SPEED  
+labelImg -- has to be installed in your cloud environment. Use pip to install labelImg in your terminal. 
 
 #### Background reading/watching
 
