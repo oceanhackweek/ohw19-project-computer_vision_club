@@ -115,8 +115,10 @@ YOLO: https://www.youtube.com/watch?v=Cgxsv1riJhI
 
 Name : Task
 
-### Project objective 
+### Longterm project objective 
   
-*put words here*  
+Help our robot overlords achieve world domination
+
+![](robot_overlord.gif)
 
 
