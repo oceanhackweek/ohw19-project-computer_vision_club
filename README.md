@@ -87,6 +87,7 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 6.) Additional tasks:  
 - Make everything go faster  
 - Create secondary data visualizations that'll make people poo their pants  
+- Add images to github README.md file
 
 #### Existing methods
 
@@ -106,3 +107,6 @@ YOLO: https://www.youtube.com/watch?v=Cgxsv1riJhI
 ### Project Organization
 
 Name : Task
+
+### Project objective  
+
