@@ -55,17 +55,20 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 *Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class?*
 
+##### Edit: this can *mostly* be done using existing scripts to save time! Still need to find a way to parse *just* the majority class
+
   
 2.) With all these new, cleanly parsed XML files, we then need to convert ALL of the annotation data into another data structure that could then be used to extract the individual patches from the original images.
 - Create a function(s) that will convert XML into some easy to work with data structure (pandas?)
 - Attributes of each instance/annotation should have annotation id, original image filename, xmin, ymin, xmax, ymax, area (any others?)
-- With new data structure, loop through all annotation instances and extract the patch they represent from original image
-- Save patches to training folder
+- The last step is to convert to .csv format into a TFRecord (refer to Slack page for information) or see [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/using_your_own_dataset.md)
 
 *Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class? How should you organize the folder heiarchary? Are there any other attributes you can think of that might help to create cool graphics?*
 
+##### Edit: this *can* be done using existing scripts to save time! Refer to [raccoon tutorial](https://github.com/datitran/raccoon_dataset) (e.g. `xml_to_csv.py`)
+
   
-3.) We now have training images in the form of patches; none of these patches are the same size. We need to preprocess them in a way so that they'll be learnable/acceptable as input. Things to look at:
+3.) We now have a TFRecord file for both the training and testing data; these are essentially the instructions for how the training data will be fed into the model for the training. However, we need to provide further instructions for how the training images will be preprocessed in a way so that they'll be learnable/acceptable as input. Things to look at:
 
 - Zero-mean, normalizing, standardizing and rescaling the images, which do we do?
 - Data augmentation (flipping, flopping, rotating, blurring, sharpening, pixel dropout)
@@ -73,10 +76,11 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
   
 4.) Object recognition consists of two parts: object detection, followed by image classification. The framework thus consists of two components. 
-- Which framework should we use and why?
+- Which framework should we use and why? (see [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) for all of the easy to grab frameworks)
 - Which convolutional neural network architecture should we use?
 - Transfer learning? (e.g. use weights of previously trained networks to assist in our training)
 - HYPER PARAMETERS!!! (loss, optimization and metrics)
+
 
   
 5.) With a trained model, what can we do with it to assist us in annotatating data in the future?
@@ -87,8 +91,8 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
   
 6.) Additional tasks:  
 - Make everything go faster  
-- Create secondary data visualizations that'll make people poo their pants  
-- Add images to github README.md file
+- Create secondary data visualizations that'll make people poo their pants (e.g. [Tensorboard](https://itnext.io/how-to-use-tensorboard-5d82f8654496))  
+- Add images to github README.md file (*very important*)
 
 #### Existing methods
   
@@ -112,8 +116,10 @@ YOLO: https://www.youtube.com/watch?v=Cgxsv1riJhI
 
 Name : Task
 
-### Project objective 
+### Longterm project objective 
   
-*put words here*  
+Help our robot overlords achieve world domination
+
+![](robot_overlord.gif)
 
 
