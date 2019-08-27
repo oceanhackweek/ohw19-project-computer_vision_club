@@ -60,11 +60,13 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 *Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class? How should you organize the folder heiarchary? Are there any other attributes you can think of that might help to create cool graphics?*
 
+
 3.) We now have training images in the form of patches; none of these patches are the same size. We need to preprocess them in a way so that they'll be learnable/acceptable as input. Things to look at:
 
 - Zero-mean, normalizing, standardizing and rescaling the images, which do we do?
 - Data augmentation (flipping, flopping, rotating, blurring, sharpening, pixel dropout)
 - How do we actually feed the data into the model for training? (python generators?)
+
 
 4.) Object recognition consists of two parts: object detection, followed by image classification. The framework thus consists of two components. 
 - Which framework should we use and why?
@@ -72,12 +74,14 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 - Transfer learning? (e.g. use weights of previously trained networks to assist in our training)
 - HYPER PARAMETERS!!! (loss, optimization and metrics)
 
+
 5.) With a trained model, what can we do with it to assist us in annotatating data in the future?
 - What is the prediction output exactly?
 - How can that be used to create annotations?
 - What about prediction confidence? How sure are we that it is right?
 
-### ***Additional tasks***   
+
+6.) Additional tasks:  
 - Make everything go faster  
 - Create secondary data visualizations that'll make people poo their pants  
 
@@ -92,10 +96,9 @@ Pandas - data science
 Numpy and/or Cupy - data science  
 Numba - SPEED  
 
-#### Background reading
+#### Background reading/watching
 
-Location of LabelImg: https://github.com/tzutalin/labelImg (recommend using PyPi to install)  
-Complete tutorial: https://fairyonice.github.io/Object_detection_with_PASCAL_VOC2012_data_preparation_and_understanding.html  
+YOLO: https://www.youtube.com/watch?v=Cgxsv1riJhI   
 
 ### Project Organization
 
