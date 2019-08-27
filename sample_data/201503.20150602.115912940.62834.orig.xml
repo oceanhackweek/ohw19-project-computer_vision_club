@@ -1,0 +1,26 @@
+<annotation>
+	<folder>20</folder>
+	<filename>201503.20150602.115912940.62834.orig.jpg</filename>
+	<path>\\nadata\RES2019HBC_GSC\HBC\annotate\cat1\20\201503.20150602.115912940.62834.orig.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1360</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Substrate A</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>147</xmin>
+			<ymin>81</ymin>
+			<xmax>177</xmax>
+			<ymax>102</ymax>
+		</bndbox>
+	</object>
+</annotation>
