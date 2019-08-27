@@ -22,6 +22,8 @@ Improve the `README.md` by filling individual sections from the project guidelin
 Jordan Pierce  
 
 Dimitris Politikos  
+
+Massimo Di Stefano
 ...  
 ...  
 ...  
@@ -54,6 +56,16 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 - Create new annotations that only contain the class that we're interested in __not completed__
 
 *Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class?*
+
+Notebook with first step for [data preparation](https://gist.github.com/f750d04fca54251f67d0b42aad849ffb)   
+which generates: 
+
+[test.csv](https://gist.github.com/4d651a9b3ac205da83a4d16ef236bf04)
+
+[train.csv](https://gist.github.com/db7dc567eaa7118ea3de425d58337cad)
+
+Along with the `tf_records` (dataset.tfrecords)
+
 
 ##### Edit: this can *mostly* be done using existing scripts to save time! Still need to find a way to parse *just* the majority class
 
