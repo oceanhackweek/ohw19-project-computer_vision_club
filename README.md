@@ -49,8 +49,8 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 1.) Currently we have *some* annotations in XML format, how can we clean and parse that data into a format that can be used to then extract the individual annotation instances? 
 - Which class(es) should we be paying attention to and what is the distribution?
-- Go through all XML annotations and record all of the different number of organisms annotated; find the majority class
-- Create new annotations that only contain the class that we're interested in
+- Go through all XML annotations and record all of the different number of organisms annotated; ~find the majority class~ __Sand Dollars!__
+- Create new annotations that only contain the class that we're interested in __not completed__
 
 *Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class?*
 
@@ -58,9 +58,9 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
   
 2.) With all these new, cleanly parsed XML files, we then need to convert ALL of the annotation data into another data structure that could then be used to extract the individual patches from the original images.
-- Create a function(s) that will convert XML into some easy to work with data structure (pandas?)
-- Attributes of each instance/annotation should have annotation id, original image filename, xmin, ymin, xmax, ymax, area (any others?)
-- The last step is to convert to .csv format into a TFRecord (refer to Slack page for information) or see [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/using_your_own_dataset.md)
+- Create a function(s) that will convert XML into some easy to work with data structure. __completed__
+- Attributes of each instance/annotation should have annotation id, original image filename, xmin, ymin, xmax, ymax, area (any others?) __completed__
+- The last step is to convert to .csv format into a TFRecord (refer to Slack page for information) or see [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/using_your_own_dataset.md) __not completed__
 
 *Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class? How should you organize the folder heiarchary? Are there any other attributes you can think of that might help to create cool graphics?*
 
