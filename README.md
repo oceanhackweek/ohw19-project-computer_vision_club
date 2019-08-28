@@ -49,15 +49,13 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 5.) Apply trained model to new data, take *good* predictions and add to training data  
 
 
+#### The Current Task:    
 
-
-#### The Current Task:  
-
-Everyone should have access to the most updated version of 'jordan_scrap_notebook' and the results/sample/... data that Massimo organized. With these you can now start your own training process! :)
+Everyone should have access to the most updated version of 'jordans_scrap_notebook' and the results/sample/... data that Massimo organized. With these you can now start your own training process! :)
 
 What you need to do is change the configure file which in the script, is a class titled `TrainConfig()`
 
-[Here](https://github.com/matterport/Mask_RCNN) is the link to the repo that we're using, if you need help, find what you need in the tutorials under the section __Getting Started__
+[Here](https://github.com/matterport/Mask_RCNN) is the link to the repo that we're using, if you need help, find what you need in the tutorials under the section *Getting Started*
 
 [Here](https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/) is the link to the Kangaroo tutorial. Jordan's script is almost the same exact code. If you don't understand why Jordan did what he did, read this!  
 
