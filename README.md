@@ -63,14 +63,11 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 *Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class?*
 
-Notebook with first step for [data preparation](https://gist.github.com/f750d04fca54251f67d0b42aad849ffb)   
+Notebook with first step for [data preparation](https://gist.github.com/2b897935c5d9003c72359bbf9049d2ec)   
 which generates: 
 
-[test.csv](https://gist.github.com/4d651a9b3ac205da83a4d16ef236bf04)
+[annotation.zip](https://drive.google.com/file/d/1q_FanEMUwS2qT6w9i0sUR_FyYhh4P8IB/view?usp=sharing)
 
-[train.csv](https://gist.github.com/db7dc567eaa7118ea3de425d58337cad)
-
-Along with the `tf_records` (dataset.tfrecords)
 
 
 ##### Edit: this can *mostly* be done using existing scripts to save time! Still need to find a way to parse *just* the majority class
