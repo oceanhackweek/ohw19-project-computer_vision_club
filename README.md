@@ -24,8 +24,14 @@ Jordan Pierce
 Dimitris Politikos  
 
 Massimo Di Stefano
-...  
-...  
+
+Ágata Piffer Braga
+
+Ivan Rodriguez-Pinto
+
+Emilio
+
+Coral Moreno
 ...  
 ...  
 
