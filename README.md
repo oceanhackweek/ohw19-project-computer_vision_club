@@ -43,75 +43,33 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 ### Workflow at a glance:
 
-1.) Parsing/cleaning existing annotation data   
-2.) Extracting and organizing training data   
+1.) Parsing/cleaning existing annotation data   __complete__
+2.) Extracting and organizing training data   __complete__
 3.) Preprocessing and augmenting training data   
 4.) Train object recognition/image classification network  
 5.) Apply trained model to new data, take *good* predictions and add to training data  
 
 #### Application example
 
-*put words here*    
-
-
 #### Specific tasks
 
-1.) Currently we have *some* annotations in XML format, how can we clean and parse that data into a format that can be used to then extract the individual annotation instances? 
-- Which class(es) should we be paying attention to and what is the distribution?
-- Go through all XML annotations and record all of the different number of organisms annotated; ~find the majority class~ __Sand Dollars!__
-- Create new annotations that only contain the class that we're interested in __not completed__
+The current task:  
 
-*Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class?*
+Everyone should have access to the most updated version of 'jordan_scrap_notebook' and the results/sample/... data that Massimo organized. With these you can now start your own training process! :)
 
-Notebook with first step for [data preparation](https://gist.github.com/21c99f12f286cb84f6abd025d299a800)   
-which generates: 
+What you need to do is change the configure file which in the script, is a class titled `TrainConfig()`
 
-[annotation.zip](https://drive.google.com/file/d/1q_FanEMUwS2qT6w9i0sUR_FyYhh4P8IB/view?usp=sharing)
+[Here](https://github.com/matterport/Mask_RCNN) is the link to the repo that we're using, if you need help, find what you need in the tutorials under the section __Getting Started__
 
+[Here](https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/) is the link to the Kangaroo tutorial. Jordan's script is almost the same exact code. If you don't understand why Jordan did what he did, read this!  
 
+Last but not least, download Massimo's [data!](https://drive.google.com/file/d/1q_FanEMUwS2qT6w9i0sUR_FyYhh4P8IB/view?usp=sharing).
 
-##### Edit: this can *mostly* be done using existing scripts to save time! Still need to find a way to parse *just* the majority class
+[This](https://gist.github.com/21c99f12f286cb84f6abd025d299a800) is how the data was prepared!
 
-  
-2.) With all these new, cleanly parsed XML files, we then need to convert ALL of the annotation data into another data structure that could then be used to extract the individual patches from the original images.
-- Create a function(s) that will convert XML into some easy to work with data structure. __completed__
-- Attributes of each instance/annotation should have annotation id, original image filename, xmin, ymin, xmax, ymax, area (any others?) __completed__
-- The last step is to convert to .csv format into a TFRecord (refer to Slack page for information) or see [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/using_your_own_dataset.md) __not completed__
-
-*Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class? How should you organize the folder heiarchary? Are there any other attributes you can think of that might help to create cool graphics?*
-
-##### Edit: this *can* be done using existing scripts to save time! Refer to [raccoon tutorial](https://github.com/datitran/raccoon_dataset) (e.g. `xml_to_csv.py`)
-
-  
-3.) We now have a TFRecord file for both the training and testing data; these are essentially the instructions for how the training data will be fed into the model for the training. However, we need to provide further instructions for how the training images will be preprocessed in a way so that they'll be learnable/acceptable as input. Things to look at:
-
-- Zero-mean, normalizing, standardizing and rescaling the images, which do we do?
-- Data augmentation (flipping, flopping, rotating, blurring, sharpening, pixel dropout)
-- How do we actually feed the data into the model for training? (python generators?)
-
-  
-4.) Object recognition consists of two parts: object detection, followed by image classification. The framework thus consists of two components. 
-- Which framework should we use and why? (see [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) for all of the easy to grab frameworks)
-- Which convolutional neural network architecture should we use?
-- Transfer learning? (e.g. use weights of previously trained networks to assist in our training)
-- HYPER PARAMETERS!!! (loss, optimization and metrics)
-
-
-  
-5.) With a trained model, what can we do with it to assist us in annotatating data in the future?
-- What is the prediction output exactly?
-- How can that be used to create annotations?
-- What about prediction confidence? How sure are we that it is right?
-
-  
-6.) Additional tasks:  
-- Make everything go faster  
-- Create secondary data visualizations that'll make people poo their pants (e.g. [Tensorboard](https://itnext.io/how-to-use-tensorboard-5d82f8654496))  
-- Add images to github README.md file (*very important*)
+__Make sure to put the data in your local machine, unzip it, and edit Jordan's script to work with it (change the source variable)__
 
 #### Existing methods
-  
-*put words here*    
 
 #### Proposed methods/tools
 
