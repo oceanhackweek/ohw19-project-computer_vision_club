@@ -63,7 +63,7 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 *Secondary task: how can you adjust your function(s) to incorporate multiple classes instead of just the single class?*
 
-Notebook with first step for [data preparation](https://gist.github.com/2b897935c5d9003c72359bbf9049d2ec)   
+Notebook with first step for [data preparation](https://gist.github.com/21c99f12f286cb84f6abd025d299a800)   
 which generates: 
 
 [annotation.zip](https://drive.google.com/file/d/1q_FanEMUwS2qT6w9i0sUR_FyYhh4P8IB/view?usp=sharing)
