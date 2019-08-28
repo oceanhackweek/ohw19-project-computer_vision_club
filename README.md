@@ -31,9 +31,8 @@ Ivan Rodriguez-Pinto
 
 Emilio
 
-Coral Moreno
-...  
-...  
+Coral Moreno  
+
 
 #### The Problem
 
@@ -49,11 +48,10 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 4.) Train object recognition/image classification network  
 5.) Apply trained model to new data, take *good* predictions and add to training data  
 
-#### Application example
 
-#### Specific tasks
 
-The current task:  
+
+#### The Current Task:  
 
 Everyone should have access to the most updated version of 'jordan_scrap_notebook' and the results/sample/... data that Massimo organized. With these you can now start your own training process! :)
 
@@ -67,9 +65,7 @@ Last but not least, download Massimo's [data!](https://drive.google.com/file/d/1
 
 [This](https://gist.github.com/21c99f12f286cb84f6abd025d299a800) is how the data was prepared!
 
-__Make sure to put the data in your local machine, unzip it, and edit Jordan's script to work with it (change the source variable)__
-
-#### Existing methods
+*Make sure to put the data in your local machine, unzip it, and edit Jordan's script to work with it (change the source variable)*
 
 #### Proposed methods/tools
 
@@ -84,10 +80,6 @@ labelImg -- has to be installed in your cloud environment. Use pip to install la
 #### Background reading/watching
 
 YOLO: https://www.youtube.com/watch?v=Cgxsv1riJhI   
-
-### Project Organization
-
-Name : Task
 
 ### Longterm project objective 
   
