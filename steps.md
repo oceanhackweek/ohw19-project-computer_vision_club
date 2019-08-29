@@ -6,7 +6,7 @@ upload weights to pangeo
 upload dataset to pangeo  
 run setup in the Mask_RCNN directory (e.g. `python setup.py install`)   
 go into Mask_RCNN/mrcnn/model.py and change `max_queue_size` to 1 (if you do not have a GPU)    
-unzip data into a data directory  (e.g. `unzip sample.zip`) 
-go through the Jordan's notebook!  (`computer_vision_club_script.ipynb`)  
+unzip data into a data directory (e.g. `unzip sample.zip`)  
+go through the Jordan's notebook! (e.g. `computer_vision_club_script.ipynb`)  
 change paths to weights and data in notebook!  
 gl and hf  
