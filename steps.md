@@ -1,7 +1,7 @@
 clone project repo  
 clone MASK RCNN repo into parent directry  
-download training weights "from https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5"  
-download dataset we used "https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5"  
+download training weights [from here](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5) 
+download dataset we used 
 upload weights to pangeo  
 upload dataset to pangeo  
 run setup in the MASK directory  
