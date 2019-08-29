@@ -43,8 +43,8 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 ### Workflow at a glance:
 
-1.) Parsing/cleaning existing annotation data   __complete__   
-2.) Extracting and organizing training data   __complete__  
+1.) Parsing/cleaning existing annotation data  
+2.) Extracting and organizing training data   
 3.) Preprocessing and augmenting training data    
 4.) Train object recognition/image classification network   
 5.) Apply trained model to new data, take *good* predictions and add to training data   
@@ -58,7 +58,9 @@ What you need to do is change the configure file which in the script, is a class
 
 [Here](https://github.com/matterport/Mask_RCNN) is the link to the repo that we're using, if you need help, find what you need in the tutorials under the section *Getting Started* as well as in the *steps* markdown file
 
-[Here](https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/) is the link to the Kangaroo tutorial. Jordan's script is almost the same exact code. If you don't understand why Jordan did what he did, read this!  
+[Here](https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/) is the link to the Kangaroo tutorial. Jordan's script is almost the same exact code. If you don't understand why Jordan did what he did, read this!
+
+[Here](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5) is the link to the pre-trained coco weights!  
 
 Last but not least, download Massimo's [data!](https://drive.google.com/file/d/1q_FanEMUwS2qT6w9i0sUR_FyYhh4P8IB/view?usp=sharing)  
 
