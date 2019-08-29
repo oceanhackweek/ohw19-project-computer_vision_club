@@ -52,7 +52,7 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 #### The Current Task:    
 
-Everyone should have access to the most updated version of 'computer_vision_club_script.ipynb' and the results/sample/... data that Massimo organized. With these you can now start your own training process! :)
+Everyone should have access to the most updated version of 'computer_vision_club_script.ipynb' and the data that Massimo organized. With these you can now start your own training process! :)  
 
 What you need to do is change the configure file which in the script, is a class titled `TrainConfig()`
 
@@ -60,11 +60,9 @@ What you need to do is change the configure file which in the script, is a class
 
 [Here](https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/) is the link to the Kangaroo tutorial. Jordan's script is almost the same exact code. If you don't understand why Jordan did what he did, read this!  
 
-Last but not least, download Massimo's [data!](https://drive.google.com/file/d/1q_FanEMUwS2qT6w9i0sUR_FyYhh4P8IB/view?usp=sharing).
+Last but not least, download Massimo's [data!](https://drive.google.com/file/d/1q_FanEMUwS2qT6w9i0sUR_FyYhh4P8IB/view?usp=sharing)  
 
-[This](https://gist.github.com/21c99f12f286cb84f6abd025d299a800) is how the data was prepared!
-
-*Make sure to put the data in your local machine, unzip it, and edit Jordan's script to work with it (change the source variable)*
+[This](https://gist.github.com/21c99f12f286cb84f6abd025d299a800) is how the data was prepared!  
 
 #### Proposed methods/tools
 
