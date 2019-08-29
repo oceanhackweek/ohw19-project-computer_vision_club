@@ -2,6 +2,7 @@
 computer vision club project for ocean hackweek 2019
 
 Welcome to the computer vision club at OHW 2019. Please join us in the slack channel #computervisionclub-2
+Read the steps file for a quick guide
 
 ## Rules
 RULE 1: name notebooks and files with lower case letters and _ for spaces.  
@@ -42,11 +43,11 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 ### Workflow at a glance:
 
-1.) Parsing/cleaning existing annotation data   __complete__
-2.) Extracting and organizing training data   __complete__
-3.) Preprocessing and augmenting training data   
-4.) Train object recognition/image classification network  
-5.) Apply trained model to new data, take *good* predictions and add to training data  
+1.) Parsing/cleaning existing annotation data   __complete__   
+2.) Extracting and organizing training data   __complete__  
+3.) Preprocessing and augmenting training data    
+4.) Train object recognition/image classification network   
+5.) Apply trained model to new data, take *good* predictions and add to training data   
 
 
 #### The Current Task:    
