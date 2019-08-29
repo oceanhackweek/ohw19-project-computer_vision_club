@@ -1,4 +1,4 @@
-##  Steps to follow to quickly dip your toes into this PCVC project
+##  Steps to follow to quickly dip your toes into this CVC project
 Step | Direction |
 --- | --- |
  1	| clone project repo (e.g. `git clone`)  |
