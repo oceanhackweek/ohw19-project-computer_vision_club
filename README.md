@@ -1,7 +1,7 @@
 # ohw19-project-computer_vision_club
 computer vision club project for ocean hackweek 2019
 
-Welcome to the computer vision club at OHW 2019. Please join us in the slack channel #computervisionclub-2
+Welcome to the computer vision club at OHW 2019. Please join us in the slack channel #computervisionclub-2  
 Read the steps file for a quick guide
 
 ## Rules
@@ -52,11 +52,11 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 
 #### The Current Task:    
 
-Everyone should have access to the most updated version of 'jordans_scrap_notebook' and the results/sample/... data that Massimo organized. With these you can now start your own training process! :)
+Everyone should have access to the most updated version of 'computer_vision_club_script.ipynb' and the results/sample/... data that Massimo organized. With these you can now start your own training process! :)
 
 What you need to do is change the configure file which in the script, is a class titled `TrainConfig()`
 
-[Here](https://github.com/matterport/Mask_RCNN) is the link to the repo that we're using, if you need help, find what you need in the tutorials under the section *Getting Started*
+[Here](https://github.com/matterport/Mask_RCNN) is the link to the repo that we're using, if you need help, find what you need in the tutorials under the section *Getting Started* as well as in the *steps* markdown file
 
 [Here](https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/) is the link to the Kangaroo tutorial. Jordan's script is almost the same exact code. If you don't understand why Jordan did what he did, read this!  
 
@@ -74,7 +74,7 @@ Scikit image - image processing and augmentation
 Pandas - data science  
 Numpy and/or Cupy - data science  
 Numba - SPEED  
-labelImg -- has to be installed in your cloud environment. Use pip to install labelImg in your terminal. 
+labelImg -
 
 #### Background reading/watching
 
