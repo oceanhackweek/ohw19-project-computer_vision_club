@@ -23,17 +23,17 @@ Improve the `README.md` by filling individual sections from the project guidelin
 
 [Jordan Pierce](https://www.jordanmakesmaps.com/)    
 
-Dimitris Politikos  
+[Dimitris Politikos](https://www.linkedin.com/in/dimitris-politikos-74b754160/)   
 
-Massimo Di Stefano
+[Massimo Di Stefano](https://ccom.unh.edu/user/distefano)  
 
-Ágata Piffer Braga
+[Ágata Piffer Braga](https://www.linkedin.com/in/%C3%A1gata-piffer-braga-42724873/?originalSubdomain=br)  
 
 Ivan Rodriguez-Pinto
 
 [Emilio](https://en.wikipedia.org/wiki/Barack_Obama)  
 
-Coral Moreno  
+[Coral Moreno](https://ccom.unh.edu/user/cmoreno)   
 
 
 #### The Problem
