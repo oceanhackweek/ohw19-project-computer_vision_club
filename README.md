@@ -21,7 +21,7 @@ Improve the `README.md` by filling individual sections from the project guidelin
 
 #### Discussion Participants
 
-Jordan Pierce  
+[Jordan Pierce](https://www.jordanmakesmaps.com/)    
 
 Dimitris Politikos  
 
@@ -31,7 +31,7 @@ Massimo Di Stefano
 
 Ivan Rodriguez-Pinto
 
-Emilio
+[Emilio](https://en.wikipedia.org/wiki/Barack_Obama)  
 
 Coral Moreno  
 
