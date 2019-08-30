@@ -29,7 +29,7 @@ Improve the `README.md` by filling individual sections from the project guidelin
 
 [Ágata Piffer Braga](https://www.linkedin.com/in/%C3%A1gata-piffer-braga-42724873/?originalSubdomain=br)  
 
-Ivan Rodriguez-Pinto
+[Ivan Rodriguez-Pinto](https://boswelllab.wixsite.com/boswelllab/people)  
 
 [Emilio](https://en.wikipedia.org/wiki/Barack_Obama)  
 
