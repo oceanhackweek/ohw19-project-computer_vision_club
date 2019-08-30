@@ -1,4 +1,7 @@
 ##  Steps to follow to quickly dip your toes into this CVC project
+ 
+ ### Train your model 
+ 
 Step | Direction |
 --- | --- |
  1	| clone project repo (e.g. `git clone`)  |
@@ -11,5 +14,12 @@ Step | Direction |
  8  | edit the Mask_RCNN/mrcnn/model.py with a change of `max_queue_size` to 1 (if you do not have a GPU)  |
  9  | unzip data into a data directory (e.g. `unzip sample.zip -d /path/to/directory`)  |
  10 | Run the notebok Jordan wrote `computer_vision_club_script.ipynb` with changes to your unique file paths  |
- 11 | gl & hf  |
+ 11 | gl & hf  |  
+   
+ ### Test your predictions 
+ Step | Direction |
+--- | --- |
+  1	| copy the file path of the last weight created into the load weights cell | 
+  2 | run the last chapter of the computer vision club script notebook  |
+ 
  
