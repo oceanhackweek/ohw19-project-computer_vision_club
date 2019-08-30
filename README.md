@@ -17,7 +17,7 @@ Improve the `README.md` by filling individual sections from the project guidelin
 
 #### Project title
 
-*Semi Supervised Annotation Tool: Kickass AI to count sandollars*
+*Underwater Currency Counter- a Semi Supervised Annotation Tool: Kickass AI to count sand dollars*
 
 #### Discussion Participants
 
@@ -31,7 +31,7 @@ Improve the `README.md` by filling individual sections from the project guidelin
 
 [Ivan Rodriguez-Pinto](https://boswelllab.wixsite.com/boswelllab/people)  
 
-[Emilio](https://en.wikipedia.org/wiki/Barack_Obama)  
+[Emilio](https://github.com/EmilioTesin100) 
 
 [Coral Moreno](https://ccom.unh.edu/user/cmoreno)   
 
