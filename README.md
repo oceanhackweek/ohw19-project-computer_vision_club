@@ -1,8 +1,9 @@
 # ohw19-project-computer_vision_club
 computer vision club project for ocean hackweek 2019
 
-Welcome to the computer vision club at OHW 2019. Please join us in the slack channel #computervisionclub-2  
-Read the steps file for a quick guide
+Welcome to the computer vision club at OHW 2019. Please join us in the slack channel #computervisionclub-2   
+
+__Read the steps file for a quick guide__  
 
 ## Rules
 RULE 1: name notebooks and files with lower case letters and _ for spaces.  
@@ -50,41 +51,54 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 5.) Apply trained model to new data, take *good* predictions and add to training data   
 
 
-#### The Current Task:    
+#### The Current Task: 
 
-Everyone should have access to the most updated version of 'computer_vision_club_script.ipynb' and the data that Massimo organized. With these you can now start your own training process! :)  
-
-What you need to do is change the configure file which in the script, is a class titled `TrainConfig()`
-
-[Here](https://github.com/matterport/Mask_RCNN) is the link to the repo that we're using, if you need help, find what you need in the tutorials under the section *Getting Started* as well as in the *steps* markdown file
-
-[Here](https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/) is the link to the Kangaroo tutorial. Jordan's script is almost the same exact code. If you don't understand why Jordan did what he did, read this!
-
-[Here](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5) is the link to the pre-trained coco weights!  
-
-Last but not least, download Massimo's [data!](https://drive.google.com/file/d/1q_FanEMUwS2qT6w9i0sUR_FyYhh4P8IB/view?usp=sharing)  
-
-[This](https://gist.github.com/21c99f12f286cb84f6abd025d299a800) is how the data was prepared!  
+##  Steps to follow to quickly dip your toes into this CVC project
+ 
+ ### Train your model 
+ 
+Step | Direction |
+--- | --- |
+ 1	| clone this project repo (e.g. `git clone`)  |
+ 2  | clone [Mask_RCNN repo](https://github.com/matterport/Mask_RCNN) into _parent directory_ |
+ 3  | download training weights [from here](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5)  |
+ 4	| download Massimo's subset of the dataset [here](https://drive.google.com/file/d/1q_FanEMUwS2qT6w9i0sUR_FyYhh4P8IB/view?usp=sharing)  |
+ 5  | upload training weight to pangeo or wherever you're working *"mask_rcnn_coco.h5"*  |
+ 6  | upload training dataset to pangeo or wherever you're working in a zipped file  |
+ 7  | run setup in the Mask_RCNN directory to install the repo's code (e.g. `python setup.py install`)  |
+ 8  | edit `model.py` with a change of `max_queue_size` to 1 and `multi_threading` to False (if you do not have a GPU)  |
+ 9  | unzip data into a data directory (e.g. `unzip sample.zip -d /path/to/directory`)  |
+ 10 | Run the notebok Jordan wrote `computer_vision_club_script.ipynb`; make changes to your unique file paths  |
+ 11 | gl & hf  |  
+   
+ ### Test your predictions 
+ Step | Direction |
+--- | --- |
+  1	| copy the file path of the last weight created into the load weights cell | 
+  2 | run the last chapter of the computer vision club script notebook  |
+ 
 
 #### Proposed methods/tools
 
+Tensorflow - for building and training the network   
 Keras - for building and training the network   
 OpenCv - image processing and augmentation  
 Scikit image - image processing and augmentation  
-Pandas - data science  
-Numpy and/or Cupy - data science  
-Numba - SPEED  
-labelImg -
+Pandas - for data science  
+Numpy and/or Cupy - for data science  
+labelImg - for annotating data  
 
 #### Background reading/watching
 
-YOLO: https://www.youtube.com/watch?v=Cgxsv1riJhI   
+[Mask RCNN with Keras tutorial](https://www.pyimagesearch.com/2019/06/10/keras-mask-r-cnn/)  
+[YOLO TED Talk](https://www.youtube.com/watch?v=Cgxsv1riJhI)  
+[Rare Puppers](https://i.redd.it/keszh72c3io01.jpg)  
 
 ### Longterm project objective 
   
 Help our robot overlords achieve world domination
 
-![](robot_overlord.gif)
+![All hail the robot overlords!](robot_overlord.gif)
 
 
 
