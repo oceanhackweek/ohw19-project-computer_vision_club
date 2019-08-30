@@ -9,6 +9,12 @@ __Read the steps file for a quick guide__
 RULE 1: name notebooks and files with lower case letters and _ for spaces.  
 RULE 2: have fun and don't freak out.
 
+## Important scripts  
+`01_data_preparation.ipynb`  
+`newest_computer_vision_club_script_from_coral.ipynb`  
+`utility.py`  
+`robot_overlord.gif`  
+
 ## Structuring the repo
 
 Improve the `README.md` by filling individual sections from the project guidelines:
