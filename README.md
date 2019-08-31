@@ -56,8 +56,7 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 4.) Train object recognition/image classification network   
 5.) Apply trained model to new data, take *good* predictions and add to training data   
 
-
-#### The Current Task: 
+ 
 
 ##  Steps to follow to quickly dip your toes into this CVC project
  
