@@ -1,5 +1,5 @@
 # ohw19-project-computer_vision_club
-computer vision club project for ocean hackweek 2019
+Computer vision club project for ocean hackweek 2019
 
 Welcome to the computer vision club at OHW 2019. Please join us in the slack channel #computervisionclub-2   
 
