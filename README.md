@@ -10,8 +10,8 @@ RULE 1: name notebooks and files with lower case letters and _ for spaces.
 RULE 2: have fun and don't freak out.
 
 ## Important scripts  
-`01_data_preparation.ipynb`  
-`newest_computer_vision_club_script_from_coral.ipynb`  
+`data_preparation.ipynb`  
+`computer_vision_club_script.ipynb`  
 `utility.py`  
 `robot_overlord.gif`  
 
