@@ -14,11 +14,6 @@ RULE 1: have fun and don't freak out.
 `utility.py`  
 `robot_overlord.gif`  
 
-## Structuring the repo
-
-Improve the `README.md` by filling individual sections from the project guidelines:
-
-[https://oceanhackweek.github.io/wiki/project_guidelines.html](https://oceanhackweek.github.io/wiki/project_guidelines.html)
 
 #### Project title
 
