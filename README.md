@@ -3,7 +3,6 @@ computer vision club project for ocean hackweek 2019
 
 Welcome to the computer vision club at OHW 2019. Please join us in the slack channel #computervisionclub-2   
 
-__Read the steps file for a quick guide__  
 
 ## Rules
 RULE 1: name notebooks and files with lower case letters and _ for spaces.  
@@ -57,7 +56,6 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 5.) Apply trained model to new data, take *good* predictions and add to training data   
 
  
-
 ##  Steps to follow to quickly dip your toes into this CVC project
  
  ### Train your model 
@@ -73,8 +71,8 @@ Step | Direction |
  7  | run setup in the Mask_RCNN directory to install the repo's code (e.g. `python setup.py install`)  |
  8  | edit `model.py` with a change of `max_queue_size` to 1 and `multi_threading` to False (if you do not have a GPU)  |
  9  | unzip data into a data directory (e.g. `unzip sample.zip -d /path/to/directory`)  |
- 10 | Run the notebok Jordan wrote `computer_vision_club_script.ipynb`; make changes to your unique file paths  |
- 11 | gl & hf  |  
+ 10 | run the notebook `computer_vision_club_script.ipynb`; make changes to your unique file paths  |
+ 11 | have fun and good luck  |  
    
  ### Test your predictions 
  Step | Direction |
