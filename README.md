@@ -50,7 +50,8 @@ This project aims to use benthic habitat imagery data collected from ROVs to tra
 4.) Train object recognition/image classification network   
 5.) Apply trained model to new data, take *good* predictions and add to training data   
 
- 
+Rendered version of the [computer_vision_club_script notebook](https://nbviewer.jupyter.org/github/oceanhackweek/ohw19-project-computer_vision_club/blob/master/computer_vision_club_script.ipynb)
+
 ##  Steps to follow to quickly dip your toes into this CVC project
  
  ### Train your model 
